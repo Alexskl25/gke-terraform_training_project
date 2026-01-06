@@ -13,3 +13,8 @@ variable "GKE_NUM_NODES" {
   type        = number
   default     = 2
 }
+
+variable "bucket" {
+  description = "Place your bucket name here"
+ type         = string
+}
